@@ -1,11 +1,2 @@
 {
-  "locked": false,
-  "title": "Ana Stream is temporarily unavailable",
-  "message": "The app is under maintenance. Please update or check our channel for news.",
-  "buttonText": "Open Telegram",
-  "buttonUrl": "https://t.me/your_channel",
-  "forceUpdate": false,
-  
-
-  "minVersion": 12
 }
