@@ -5,15 +5,7 @@
   "buttonText": "Open Telegram",
   "buttonUrl": "https://t.me/your_channel",
   "forceUpdate": false,
-  "update": {
-  "en": {
-    "title": "Update Required",
-    "message": "Please update the app to continue."
-  },
-  "ar": {
-    "title": "تحديث مطلوب",
-    "message": "يرجى تحديث التطبيق للمتابعة."
-  }
+  
 },
   "minVersion": 12
 }
