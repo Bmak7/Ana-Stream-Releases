@@ -1,21 +1,19 @@
 {
-  
   "locked": false,
   "title": "Ana Stream is temporarily unavailable",
   "message": "The app is under maintenance. Please update or check our channel for news.",
-  "buttonText": "open telegram",
+  "buttonText": "Update Now",
   "buttonUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v2.3.3/app-release.apk",
   "forceUpdate": false,
-  
-
-  "minVersion": 12,
   "update": {
-  "en": {
-    "title": "Update Required",
-    "message": "Please update the app to continue."
+    "en": {
+      "title": "Update Required",
+      "message": "Please update the app to continue."
+    },
+    "ar": {
+      "title": "تحديث مطلوب",
+      "message": "يرجى تحديث التطبيق للمتابعة."
+    }
   },
-  "ar": {
-    "title": "تحديث مطلوب",
-    "message": "يرجى تحديث التطبيق للمتابعة."
-  }
+  "minVersion": 12
 }
