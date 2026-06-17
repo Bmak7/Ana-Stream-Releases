@@ -1,0 +1,6 @@
+{
+  "_comment": "Push this file to https://github.com/Bmak7/Ana-Stream-Releases/blob/main/neo4k_config.json — the app fetches it at https://raw.githubusercontent.com/Bmak7/Ana-Stream-Releases/refs/heads/main/neo4k_config.json and uses it instead of the APK fallback. When the line expires (current expiry: 2026-09-13), edit this file and push; every install picks up the new credentials on next launch.",
+  "server_url": "http://pro.neoplayer-sh13.com:80",
+  "username":   "c1b01136ec",
+  "password":   "00e61319ed"
+}
