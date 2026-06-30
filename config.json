@@ -8,7 +8,7 @@
   "forceUpdate":false,
   
 
-  "minVersion": 11,
+  "minVersion": 19,
   "update": {
   "en": {
     "title": "Update Required",
