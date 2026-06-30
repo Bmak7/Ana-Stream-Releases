@@ -5,7 +5,7 @@
   "message": "Update app/ تحديث جديد",
   "buttonText": "حدث التطبيق",
   "buttonUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/latest/download/app-release.apk",
-  "forceUpdate":true,
+  "forceUpdate":false,
   
 
   "minVersion": 11,
