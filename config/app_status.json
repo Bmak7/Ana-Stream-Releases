@@ -1,23 +1,8 @@
 {
   "locked": false,
-  "title": "Ana Stream is temporarily unavailable",
-  "message": "Update app / تحديث جديد",
-  "buttonText": "حدث التطبيق",
-  "buttonUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/latest/download/app-release.apk",
   "forceUpdate": false,
   "minVersion": 11,
-  "latestVersionCode": 11,
-  "latestVersionName": "2.5.0",
-  "apkUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/latest/download/app-release.apk",
-  "releaseNotes": "A fresh Ana Stream update is ready for you. This version brings better Arabic support, smoother Music playback, improved YouTube experience, new sources, performance improvements, bug fixes, and important enhancements to keep the app working at its best. Please update now to continue enjoying Ana Stream.",
-  "update": {
-    "en": {
-      "title": "Update Required",
-      "message": "A fresh Ana Stream update is ready for you. This version brings better Arabic support, smoother Music playback, improved YouTube experience, new sources, performance improvements, bug fixes, and important enhancements to keep the app working at its best. Please update now to continue enjoying Ana Stream. Or download the latest version using the Downloader app with code 8166048."
-    },
-    "ar": {
-      "title": "تحديث مطلوب",
-      "message": "يتوفر تحديث جديد لتطبيق Ana Stream. يتضمن هذا الإصدار دعمًا أفضل للغة العربية، وتشغيلًا أكثر سلاسة للموسيقى، وتحسين تجربة YouTube، وإضافة مصادر جديدة، وتحسينات في الأداء، وإصلاحات للأخطاء، بالإضافة إلى تحسينات مهمة لضمان أفضل تجربة استخدام. يُرجى تحديث التطبيق الآن للاستمتاع بأحدث الميزات والتحسينات، أو قم بتنزيل أحدث إصدار عبر تطبيق Downloader باستخدام الكود 8166048."
-    }
-  }
+  "latestVersionCode": 20,
+  "latestVersionName": "2.5.1",
+  "apkUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/latest/download/app-release.apk"
 }
