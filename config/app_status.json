@@ -1,7 +1,6 @@
 {
-  "locked": true,
-  "lockTitle": "Maintenance",
-  "lockMessage": "Ana Stream is currently under maintenance. Please try again later.",
+  "locked": false,
+  
   "forceUpdate": false,
   "minVersion": 18,
   "latestVersionCode": 20,
