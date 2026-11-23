@@ -1,0 +1,37 @@
+name: Sync Windows Release Asset
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to update (e.g. v3.2.1)"
+        required: true
+        default: "v3.2.1"
+        type: string
+      zip_url:
+        description: "Signed artifact zip URL containing AnaStream-Setup.exe and AnaStream-Setup.exe.sha256"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and extract Windows installer artifact
+        env:
+          ZIP_URL: ${{ inputs.zip_url }}
+          TAG: ${{ inputs.tag }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/win-release
+          curl -fSL "$ZIP_URL" -o /tmp/win-release/artifact.zip
+          unzip -q /tmp/win-release/artifact.zip -d /tmp/win-release
+          rm -f /tmp/win-release/artifact.zip
+          ls -lh /tmp/win-release
+          sha256sum /tmp/win-release/AnaStream-Setup.exe
+          cat /tmp/win-release/AnaStream-Setup.exe.sha256
+          gh release upload "$TAG" /tmp/win-release/AnaStream-Setup.exe /tmp/win-release/AnaStream-Setup.exe.sha256 --clobber --repo "${{ github.repository }}"
