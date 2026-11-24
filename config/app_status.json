@@ -1,9 +1,61 @@
 {
   "locked": false,
-  
   "forceUpdate": false,
   "minVersion": 20,
-  "latestVersionCode": 28,
-  "latestVersionName": "3.2.1",
-  "apkUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/latest/download/app-release.apk"
+  "latestVersionCode": 29,
+  "latestVersionName": "3.2.4",
+  "apkUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.4/app-release.apk",
+  "buttonText": "Update Now",
+  "buttonUrl": "https://www.anastream.app",
+  "releaseNotes": "• Import local subtitles (.srt, .vtt, .ass, .ssa, .sub, .zip) with automatic Arabic encoding detection\n• 1-Tap Subtitle Sync Studio: ±0.1s/±0.5s nudges, framerate presets & tap-to-voice line alignment\n• Botanical Cinema v2 UI, Live TV & OscarTV/YacineTV streaming reliability upgrades\n• Cross-platform App Gate & Update Center across Android, Windows Desktop & VIDAA TV",
+  "update": {
+    "en": {
+      "title": "AnaStream 3.2.4 Available",
+      "message": "Optional update with Local Subtitle Import, 1-Tap Subtitle Sync Studio, Botanical Cinema v2 UI, and Live TV fixes."
+    },
+    "ar": {
+      "title": "تحديث أنا ستريم 3.2.4 متاح الآن",
+      "message": "تحديث اختياري جديد يضيف استيراد الترجمة من الجهاز، ومزامنة الصوت بضغطة واحدة، وتصميم سينمائي محدّث وإصلاحات البث المباشر."
+    }
+  },
+  "windows": {
+    "locked": false,
+    "forceUpdate": false,
+    "minVersion": "3.2.0",
+    "latestVersion": "3.2.4",
+    "installerUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.4/AnaStream-Setup.exe",
+    "checksumUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.4/AnaStream-Setup.exe.sha256",
+    "sha256": "37efb7c8a287c09ca6df17eb47b9368a118a671ae48690309b2fd558e057f207",
+    "buttonUrl": "https://www.anastream.app",
+    "releaseNotes": "• Cross-platform App Gate & 1-click SHA-256 verified Windows updater\n• Local Subtitle Import (.srt, .vtt, .ass, .ssa, .sub, .zip) & 1-Tap Subtitle Sync Studio\n• Auto-hiding player controls/cursor & live HLS / OscarTV playback fixes",
+    "update": {
+      "en": {
+        "title": "AnaStream for Windows 3.2.4 Available",
+        "message": "Optional update with 1-click SHA-256 verified updates, Local Subtitle Import, and Subtitle Sync Studio."
+      },
+      "ar": {
+        "title": "تحديث أنا ستريم للويندوز 3.2.4 متاح",
+        "message": "تحديث اختياري يدعم التحديث الموثق بضغطة واحدة واستيراد ومزامنة الترجمة المحلية."
+      }
+    }
+  },
+  "vidaa": {
+    "locked": false,
+    "forceUpdate": false,
+    "minVersion": "1.0.0",
+    "latestVersion": "1.1.0",
+    "downloadUrl": "https://www.anastream.app",
+    "downloaderCode": "8166048",
+    "releaseNotes": "• Smart TV App Gate & Update Center with remote D-pad controls\n• USB/Device Local Subtitle Import & Subtitle Timing Sync\n• Arabic RTL & low-RAM playback optimizations",
+    "update": {
+      "en": {
+        "title": "AnaStream TV 1.1.0 Available",
+        "message": "Optional Smart TV update with Update Center, USB subtitle import, and live timing sync."
+      },
+      "ar": {
+        "title": "تحديث أنا ستريم للتلفاز 1.1.0 متاح",
+        "message": "تحديث اختياري للتلفاز الذكي مع مركز التحديثات واستيراد ومزامنة الترجمة."
+      }
+    }
+  }
 }
