@@ -22,20 +22,20 @@
     "locked": false,
     "forceUpdate": false,
     "minVersion": "3.2.0",
-    "latestVersion": "3.2.4",
-    "installerUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.4/AnaStream-Setup.exe",
-    "checksumUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.4/AnaStream-Setup.exe.sha256",
-    "sha256": "37efb7c8a287c09ca6df17eb47b9368a118a671ae48690309b2fd558e057f207",
+    "latestVersion": "3.2.5",
+    "installerUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.5-windows/AnaStream-Setup.exe",
+    "checksumUrl": "https://github.com/Bmak7/Ana-Stream-Releases/releases/download/v3.2.5-windows/AnaStream-Setup.exe.sha256",
+    "sha256": "baed1453d2f727500677977b4455566af72c97163df34226455348ad4824f43c",
     "buttonUrl": "https://www.anastream.app",
-    "releaseNotes": "• Cross-platform App Gate & 1-click SHA-256 verified Windows updater\n• Local Subtitle Import (.srt, .vtt, .ass, .ssa, .sub, .zip) & 1-Tap Subtitle Sync Studio\n• Auto-hiding player controls/cursor & live HLS / OscarTV playback fixes",
+    "releaseNotes": "• New Multi-Source Live TV Hub (Ctrl+L): combines Yacine TV, Yono TV, OS TV & Pulsar TV with live match scoreboards, smart channel deduplication & automatic stream failover\n• Added AnimeWitcher anime catalog & multi-server extractors\n• Search history & stability improvements",
     "update": {
       "en": {
-        "title": "AnaStream for Windows 3.2.4 Available",
-        "message": "Optional update with 1-click SHA-256 verified updates, Local Subtitle Import, and Subtitle Sync Studio."
+        "title": "AnaStream for Windows 3.2.5 Available",
+        "message": "Optional update adding the Multi-Source Live TV Hub (Yacine, Yono, OS TV & Pulsar TV with automatic stream failover) and the AnimeWitcher source."
       },
       "ar": {
-        "title": "تحديث أنا ستريم للويندوز 3.2.4 متاح",
-        "message": "تحديث اختياري يدعم التحديث الموثق بضغطة واحدة واستيراد ومزامنة الترجمة المحلية."
+        "title": "تحديث أنا ستريم للويندوز 3.2.5 متاح الآن",
+        "message": "تحديث اختياري جديد يضيف قسم البث المباشر الموحّد متعدد المصادر (Yacine وYono وOS TV وPulsar TV مع تبديل تلقائي للسيرفرات) ومصدر AnimeWitcher للأنمي."
       }
     }
   },
